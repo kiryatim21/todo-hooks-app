@@ -14,7 +14,6 @@ function App() {
         },
         [setTodos]
     );
-    
     const openModal = useCallback(() => setIsModalOpen(true), []);
     const closeModal = useCallback(() => setIsModalOpen(false), []);
 
